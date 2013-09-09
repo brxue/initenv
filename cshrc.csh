@@ -8,3 +8,4 @@ source ~/github/initenv/systemperl.csh
 source ~/github/initenv/verilator.csh
 
 setenv LD_LIBRARY_PATH /usr/local/lib:/usr/local/lib64
+setenv PKG_CONFIG_PATH /usr/local/lib/pkgconfig
