@@ -1,3 +1,4 @@
+source ~/github/initenv/settings.csh
 source ~/github/initenv/alias.csh
 source ~/github/initenv/iverilog.csh
 source ~/github/initenv/gtkwave.csh
