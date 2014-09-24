@@ -1,6 +1,6 @@
 alias vi 'vim'
 alias v 'vim'
-alias g 'vim'
+alias g 'gvim'
 alias grep 'grep --color=auto'
 alias .. 'cd ..'
 
