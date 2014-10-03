@@ -64,3 +64,6 @@ au BufNewFile,BufRead *.ahk set filetype=ahk
 au BufNewFile,BufRead *.ps1 set filetype=ps1
 au BufNewFile,BufRead *.md set filetype=markdown
 au BufNewFile,BufRead *.dtl set filetype=htmldjango
+
+au BufNewFile,BufRead *.py set expandtab
+au BufNewFile,BufRead *.md,*.markdown set expandtab
