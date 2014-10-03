@@ -1,3 +1,4 @@
-alias n n;;l # listing after next
-alias s s;;l # listing after step
+# Listing after Next/Step 
+alias n n;;l
+alias s s;;l
 
