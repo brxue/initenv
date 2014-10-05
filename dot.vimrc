@@ -18,15 +18,16 @@ set hlsearch 			" highlight searched for phrases
 " set nohlsearch 		" do not highlight searched for phrases
 set nostartofline 		" leave my cursor where it was
 " set novisualbell 		" don't blink
-set number 			" turn on line numbers
-" set numberwidth=5 		" We are good up to 99999 lines
+set number 			    " turn on line numbers
+" set numberwidth=5 	" We are good up to 99999 lines
 set report=0 			" tell us when anything is changed via :...
-set ruler 			" Always show current positions along the bottom
+set ruler 			    " Always show current positions along the bottom
 set scrolloff=10 		" Keep 10 lines (top/bottom) for scope
-" set shortmess=aOstT 		" shortens messages to avoid 'press a key' prompt
+" set shortmess=aOstT 	" shortens messages to avoid 'press a key' prompt
 set showcmd 			" show the command being typed
 set showmatch 			" show matching brackets
-set sidescrolloff=10 		" Keep 5 lines at the size
+set sidescrolloff=10 	" Keep 5 lines at the size
+set laststatus=2        " will always show the status line
 set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 "              | | | | |  |   |      |  |     |    |
 "              | | | | |  |   |      |  |     |    + current column
