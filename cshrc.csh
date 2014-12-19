@@ -3,7 +3,7 @@ if ! $?PATH then
 endif
 
 setenv PREFIX /home/brxue/software
-setenv PATH ${PATH}:$PREFIX/bin
+setenv PATH ${PATH}:$PREFIX/bin:/home/brxue/bin
 
 source ~/github/initenv/settings.csh
 source ~/github/initenv/alias.csh
@@ -17,4 +17,4 @@ source ~/github/initenv/openrisc.csh
 source ~/github/initenv/systemperl.csh
 source ~/github/initenv/verilator.csh
 source ~/github/initenv/qt.csh
-
+source ~/github/initenv/hm.csh
