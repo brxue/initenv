@@ -57,6 +57,9 @@ set foldmarker={,} 		" use simple markers
 set foldlevel=100 		" Don't autofold anything (but I can still fold manually)
 set foldopen=block,hor,mark,percent,quickfix,tag " what movements open folds
 
+set tags=./tags;/ " search tags file in current directory, and work up the tree towards root until one is found
+"set tags=./tags;$HOME " search until home directory
+
 " au BufRead,BufNewFile *.rb,*.rhtml,*.mm,*.cpp,*.h,*.hpp set sw=2 sts=2
 " au BufRead,BufNewFile *.go set noexpandtab sw=8 sts=8 syntax=go listchars=tab:\|\ ,trail:- " show tabs and trailing
 au BufRead,BufNewFile MakeFile,Makefile,makefile set noexpandtab sw=4 sts=4 syntax=make listchars=tab:\|\ ,trail:- " show tabs and trailing
@@ -68,3 +71,5 @@ au BufNewFile,BufRead *.dtl set filetype=htmldjango
 
 au BufNewFile,BufRead *.py set expandtab
 au BufNewFile,BufRead *.md,*.markdown set expandtab
+au BufNewFile,BufRead *.rb set expandtab sw=2 sts=2 ts=2
+au BufNewFile,BufRead *.html set expandtab sw=2 sts=2 ts=2
