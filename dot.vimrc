@@ -1,3 +1,4 @@
+set guifont=Courier\ 10\ Pitch\ 12
 set nocompatible 		" explicitly get out of vi-compatible mode
 "set background=dark 		" we plan to use a dark background
 set fenc=utf-8 			" UTF-8
@@ -72,4 +73,4 @@ au BufNewFile,BufRead *.dtl set filetype=htmldjango
 au BufNewFile,BufRead *.py set expandtab
 au BufNewFile,BufRead *.md,*.markdown set expandtab
 au BufNewFile,BufRead *.rb set expandtab sw=2 sts=2 ts=2
-au BufNewFile,BufRead *.html set expandtab sw=2 sts=2 ts=2
+au BufNewFile,BufRead *.html,*.html.erb set expandtab sw=2 sts=2 ts=2
