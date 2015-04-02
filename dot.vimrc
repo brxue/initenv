@@ -23,7 +23,7 @@ set number 			    " turn on line numbers
 " set numberwidth=5 	" We are good up to 99999 lines
 set report=0 			" tell us when anything is changed via :...
 set ruler 			    " Always show current positions along the bottom
-set scrolloff=10 		" Keep 10 lines (top/bottom) for scope
+"set scrolloff=10 		" Keep 10 lines (top/bottom) for scope
 " set shortmess=aOstT 	" shortens messages to avoid 'press a key' prompt
 set showcmd 			" show the command being typed
 set showmatch 			" show matching brackets
