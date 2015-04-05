@@ -1,3 +1,4 @@
+set autocorrect=0 # disable auto spelling correct
 if ! $?PATH then
 	setenv PATH
 endif
