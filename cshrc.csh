@@ -6,6 +6,7 @@ endif
 setenv PREFIX /home/brxue/software
 setenv PATH ${PATH}:$PREFIX/bin:/home/brxue/bin
 
+alias java "java -ea"
 source ~/github/initenv/settings.csh
 source ~/github/initenv/alias.csh
 source ~/github/initenv/c.csh

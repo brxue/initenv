@@ -5,6 +5,9 @@ else
   set prompt=\[`id -un`@`hostname`\]\$\ 
 endif
 
+
+set prompt='[%c04]$ '
+
 # Some neat default settings.
 set autocorrect=1
 set autolist=ambiguous

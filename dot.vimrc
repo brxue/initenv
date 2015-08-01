@@ -9,6 +9,8 @@ set autochdir 			" always switch to the current directory
 filetype plugin indent on 	" load filetype plugins/indent settings
 set backspace=indent,eol,start 	" make backspace a more flexible
 " set backup 			" make backup files
+set nobackup 			" make backup files
+set noswapfile          " no swp file
 set clipboard+=unnamed 		" share windows clipboard
 set fileformats=unix,dos,mac 	" support all three, in this order
 set hidden 			" you can change buffers without saving
