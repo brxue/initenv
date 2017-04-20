@@ -6,7 +6,8 @@ else
 endif
 
 
-set prompt='[%c04]$ '
+#set prompt='[%c04]$ '
+#set prompt='[%n@%m %c02]$ '
 
 # Some neat default settings.
 set autocorrect=1
