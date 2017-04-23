@@ -13,5 +13,3 @@ alias ls 'ls --color'
 alias l 'ls -C'
 alias la 'ls -a'
 alias ll 'ls -l'
-
-alias java "java -ea"

@@ -1,0 +1,1 @@
+alias java "java -ea"

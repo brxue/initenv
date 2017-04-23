@@ -1,4 +1,3 @@
-set autocorrect=0 # disable auto spelling correct
 if ! $?PATH then
 	setenv PATH
 endif
@@ -6,7 +5,6 @@ endif
 setenv PREFIX /home/brxue/software
 setenv PATH ${PATH}:$PREFIX/bin:/home/brxue/bin
 
-alias java "java -ea"
 source ~/github/initenv/csh/settings.csh
 source ~/github/initenv/csh/alias.csh
 

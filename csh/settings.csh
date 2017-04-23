@@ -31,3 +31,4 @@ set showdots=1
 set symlinks=expand
 
 
+set autocorrect=0 # disable auto spelling correct
