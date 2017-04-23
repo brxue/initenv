@@ -11,3 +11,5 @@ fi
 # User specific aliases and functions
 # --------------------------------------------------------------------------------------
 source ~/github/initenv/bash/alias.bash
+source ~/github/initenv/ruby/rbenv.bash
+

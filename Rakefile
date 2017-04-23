@@ -28,5 +28,9 @@ namespace :install do
 	    source = "#{Dir.pwd}/bash/dot.bashrc"
 	    target = File.expand_path("~/.bashrc")
         do_link(source, target)
+
+	    source = "#{Dir.pwd}/bash/dot.bash_profile"
+	    target = File.expand_path("~/.bash_profile")
+        do_link(source, target)
     end
 end
