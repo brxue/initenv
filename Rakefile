@@ -17,13 +17,6 @@ namespace :install do
         do_link(source, target)
     end
 
-    task :csh do
-	    source = "#{Dir.pwd}/csh/dot.cshrc"
-	    target = File.expand_path("~/.cshrc")
-        do_link(source, target)
-
-    end
-
     task :bash do
 	    source = "#{Dir.pwd}/bash/dot.bashrc"
 	    target = File.expand_path("~/.bashrc")

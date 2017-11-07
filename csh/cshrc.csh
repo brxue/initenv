@@ -1,3 +1,6 @@
+setenv PATH ${PATH}:~/bin
+source ~/github/initenv/csh/settings.csh
+source ~/github/initenv/csh/alias.csh
 # Set prompt
 if ($?tcsh) then
   set prompt='[%n@%m %c02]$ '
@@ -32,3 +35,18 @@ set symlinks=expand
 
 
 set autocorrect=0 # disable auto spelling correct
+alias vi 'vim'
+alias v 'vim'
+alias g 'gvim'
+alias grep 'grep --color=auto'
+alias .. 'cd ..'
+
+alias ++ pushd
+alias -- popd
+alias d dirs
+alias h history
+alias j jobs
+alias ls 'ls --color'
+alias l 'ls -C'
+alias la 'ls -a'
+alias ll 'ls -l'
