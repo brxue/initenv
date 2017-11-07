@@ -1,6 +1,5 @@
 setenv PATH ${PATH}:~/bin
-source ~/github/initenv/csh/settings.csh
-source ~/github/initenv/csh/alias.csh
+
 # Set prompt
 if ($?tcsh) then
   set prompt='[%n@%m %c02]$ '
@@ -50,3 +49,9 @@ alias ls 'ls --color'
 alias l 'ls -C'
 alias la 'ls -a'
 alias ll 'ls -l'
+
+
+alias cnpm "npm --registry=https://registry.npm.taobao.org \
+--cache=$HOME/.npm/.cache/cnpm \
+--disturl=https://npm.taobao.org/dist \
+--userconfig=$HOME/.cnpmrc"
