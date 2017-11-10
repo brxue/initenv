@@ -51,9 +51,9 @@ alias la 'ls -a'
 alias ll 'ls -l'
 
 
-alias npm "npm --registry=https://registry.npm.taobao.org \
---cache=$HOME/.npm/.cache/cnpm \
---disturl=https://npm.taobao.org/dist \
---userconfig=$HOME/.cnpmrc"
+#alias npm "npm --registry=https://registry.npm.taobao.org \
+#--cache=$HOME/.npm/.cache/cnpm \
+#--disturl=https://npm.taobao.org/dist \
+#--userconfig=$HOME/.cnpmrc"
 
 echo "Done."
