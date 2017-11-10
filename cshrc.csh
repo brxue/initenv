@@ -1,4 +1,4 @@
-setenv PATH ${PATH}:~/bin
+setenv PATH ${PATH}:${HOME}/bin
 
 # Set prompt
 if ($?tcsh) then
@@ -51,7 +51,9 @@ alias la 'ls -a'
 alias ll 'ls -l'
 
 
-alias cnpm "npm --registry=https://registry.npm.taobao.org \
+alias npm "npm --registry=https://registry.npm.taobao.org \
 --cache=$HOME/.npm/.cache/cnpm \
 --disturl=https://npm.taobao.org/dist \
 --userconfig=$HOME/.cnpmrc"
+
+echo "Done."
