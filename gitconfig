@@ -1,0 +1,20 @@
+[user]
+	name = brxue
+	email = brian.xue@outlook.com
+[core]
+	editor = /usr/bin/vim
+[color]
+	diff = always
+	ui = always
+[push]
+	default = simple
+[credential]
+	helper = cache --timeout=2592000
+[merge]
+	tool = gvimdiff
+[diff]
+[diff]
+	tool = gvimdiff
+[difftool]
+[difftool]
+	prompt = false
