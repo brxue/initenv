@@ -55,5 +55,3 @@ alias ll 'ls -l'
 #--cache=$HOME/.npm/.cache/cnpm \
 #--disturl=https://npm.taobao.org/dist \
 #--userconfig=$HOME/.cnpmrc"
-
-echo "Done."
